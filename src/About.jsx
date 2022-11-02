@@ -1,9 +1,10 @@
 import React from 'react';
+import Section1 from './components/Section1';
 
 const About =() =>{
   return(
     <>
-    <h1>About</h1>
+   <Section1/>
     </>
   );
 };
