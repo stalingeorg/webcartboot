@@ -13,7 +13,7 @@ code {
 }
 
 .main_head {
-  all: unset;
+  /* all: unset; */
   font-size: 10vw;
   position: relative;
   background: linear-gradient(70deg, #0ebeff, #ffdd40, #ae63e4, #47cf73, #0ebeff, #ffdd40, #ae63e4, #47cf73);
