@@ -149,7 +149,7 @@ code {
   background: #fff;
 }
 
-button {
+/* button {
   outline: none;
   border: none;
   -webkit-user-select: none;
@@ -163,7 +163,7 @@ button {
   height: 50px;
   border-radius: 50%;
   background: transparent;
-}
+} */
 
  
 .ul_motion {
@@ -208,4 +208,20 @@ li {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.button_learn_more{
+  font: 14px/14px ;
+    padding: .625rem 1.25rem;
+    border: 2px solid #fff;
+    margin-right: 1rem;
+    width: 18rem;
+    min-width: 10.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
 }

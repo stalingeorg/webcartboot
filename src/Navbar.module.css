@@ -1,4 +1,4 @@
-.menu_active, .nav-item a:hover{
+.menu_active, .navItem a:hover{
     position: relative;
     background: linear-gradient(70deg, #0ebeff, #ffdd40, #ae63e4, #47cf73, #0ebeff, #ffdd40, #ae63e4, #47cf73);
     color: #fff;
@@ -7,7 +7,7 @@
     background-clip: text;
     background-size: 200% 200%;
 }
-.nav-item a{
+.navItem a{
     font-size: 24px;
     color: #fff;
 }
@@ -23,4 +23,3 @@
       background-position: 200% 50%;
     }
   }
-  
