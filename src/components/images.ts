@@ -6,8 +6,8 @@ export interface CustomImage extends Image {
 
 export const images: CustomImage[] = [
   {
-    src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-    original: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+    src: require('../assets/images/party.jpg'),
+    original: require('../assets/images/party.jpg'),
     width: 320,
     height: 174,
     tags: [

@@ -13,7 +13,7 @@ const Section2 =() =>{
         <div className="col-md-6 text-center text-white">
           <div className="d-flex align-items-center justify-content-center flex-column text-start">
            <div className="text-start w-50">
-           <h3 className='mb-3' >STREAMING, VIDEO CALLS, ONLINE GAMING & MORE</h3>
+           <h3 className='mb-3 h2' >STREAMING, VIDEO CALLS, ONLINE GAMING & MORE</h3>
             <p>With Starlink, users can engage in activities that historically have not been possible with satellite internet.
 
 Starlink’s high-speed, low-latency service is made possible via the world’s largest constellation of highly advanced satellites operating in a low orbit around the Earth.</p>

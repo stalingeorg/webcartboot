@@ -2,7 +2,8 @@ import React  from 'react';
 import './index.css';
 import Banner from './components/Banner';
 import Section2 from './components/Section2';
-import { Gallery } from "react-grid-gallery";
+import Video from './components/Video';
+import Gallery1 from './components/Gallery';
  
 
 const Home =() =>{
@@ -10,7 +11,8 @@ const Home =() =>{
     <>
     <Banner/>
     <Section2/>
-    <Gallery/>
+    <Gallery1/>
+    <Video/>
     </>
   );
 };
