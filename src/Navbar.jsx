@@ -21,14 +21,14 @@ const Navbar =() =>{
     <>
     <nav className={`navbar navbar-dark navbar-expand-lg`}  style={{position:"fixed",width: "100%",backgroundColor: "transparent"}}>
   <div className="container-fluid">
-     <div className='row'>
+     <div className='row w-100'>
       <div className="col-3">
       <NavLink className="navbar-brand d-md-none" to="/ ">
         <img src={logoImg} alt="" style={{width:"123px",height:"123px"}} />
       </NavLink>
       </div>
       <div className="col-9">
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     </div>
