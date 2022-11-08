@@ -1,22 +1,28 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import sideLeft from'../assets/images/sideleft.jpg';
+import IMAGES from './Swpimages';
+import { Navigation } from "swiper";
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/navigation';
 
 export default () => {
   return (
     <Swiper
       spaceBetween={50}
       slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+      navigation={true}
+      modules={[Navigation]}
+     
     >
-      <SwiperSlide><img src={sideLeft} /></SwiperSlide>
-      <SwiperSlide><img src={sideLeft} /></SwiperSlide>
-      <SwiperSlide><img src={sideLeft} /></SwiperSlide>
-      <SwiperSlide><img src={sideLeft} /></SwiperSlide>
+       {
+        IMAGES.map((item) =>
+        <SwiperSlide >
+          <img src={ item.image } />
+        </SwiperSlide>
+        ) }
+    
  
     </Swiper>
   );

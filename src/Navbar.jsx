@@ -6,7 +6,7 @@ import logoImg from './assets/images/logo.svg';
 const navbaritems = [  
   {  
     'id': 1,   
-    'link': '/ ',   
+    'link': '/',   
     'name': 'Home'  
   },  
   {   

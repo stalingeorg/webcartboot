@@ -4,7 +4,8 @@ import Banner from './components/Banner';
 import Section2 from './components/Section2';
 import Video from './components/Video';
 import Gallery1 from './components/Gallery';
-import Swp from './components/Swp';
+import Swp from './components/Swp'; 
+import Swp2 from './components/Swp2'; 
  
 
 const Home =() =>{
@@ -14,7 +15,8 @@ const Home =() =>{
     <Section2/>
     <Gallery1/>
     <Video/>
-    <Swp/>
+    <Swp/> 
+    <Swp2/> 
     </>
   );
 };
